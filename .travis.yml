@@ -6,7 +6,7 @@ node_js:
   - '9'
 
 git: 
-  depth:3
+  depth: 3
 script:
   -yarn build
 deploy:
