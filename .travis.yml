@@ -9,7 +9,6 @@ git:
   depth:3
 script:
   -yarn build
-  -echo 'url-personalizada.com' > public/CNAME
 deploy:
   provider: pages
   skip-cleanup: true
