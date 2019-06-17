@@ -1,8 +1,7 @@
 language: node_js
 cache:
   directories: 
-  - .autoconf
-  - $HOME/.m2
+  - mode_modules
 node_js:
   - '10.16.0'
 
