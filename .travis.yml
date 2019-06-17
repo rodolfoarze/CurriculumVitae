@@ -1,13 +1,14 @@
 language: node_js
 cache:
   directories: 
-    - ~!@/.npm
+  - .autoconf
+  - $HOME/.m2
 node_js:
   - '10.16.0'
 
 git: 
   depth: 3
-script:
+  script:
   -yarn build
 deploy:
   provider: pages
